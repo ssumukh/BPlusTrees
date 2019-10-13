@@ -5,16 +5,16 @@ A B+ tree is a balanced binary search tree that follows a multi-level index form
 
 To run:
 
-####Compile:
+##### Compile:
 
 g++ -std=c++11 btree.cpp
 
-####Run: 
+##### Run: 
 
 ./a.out <inputFile> <number of buffers> <buffer size>
 where number of buffers is >= 2.
 Eg: ./a.out input.txt 4 16 > result.txt
 
-###Verify:
+##### Verify:
 
 diff result.txt output.txt
