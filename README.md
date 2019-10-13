@@ -11,7 +11,7 @@ g++ -std=c++11 btree.cpp
 
 ##### Run: 
 
-./a.out <inputFile> <number of buffers> <buffer size>
+./a.out inputFile number_of_buffers buffer_size
   
 where number of buffers is >= 2.
 
